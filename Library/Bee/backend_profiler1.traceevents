@@ -1,0 +1,493 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691506189846906, "dur":601, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506189847513, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1691506189847556, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1691506189847569, "dur":304, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1691506189847894, "dur":346, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506189848240, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458689, "dur":205, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458894, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458918, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458921, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458929, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458931, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458937, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458939, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458945, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458946, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458950, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458951, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458956, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458958, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458962, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458963, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458968, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458969, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458973, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458975, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458979, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458981, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458986, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458987, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190458992, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190459004, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190459025, "dur":775, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691506189848231, "dur":68, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189848299, "dur":2595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189850894, "dur":10976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1691506189861873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189861880, "dur":562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1691506189862467, "dur":20010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506189882481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189882576, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506189882961, "dur":87509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506189970474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189970480, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506189971413, "dur":26371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506189997790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506189997799, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190000186, "dur":24698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190024890, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190024901, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190025485, "dur":19529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190045020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190045029, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190046095, "dur":22128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190068229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190068237, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190068839, "dur":73854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190142700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190142709, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190143410, "dur":61016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190204452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190204460, "dur":633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190205104, "dur":33057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190238166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190238174, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190239174, "dur":47007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190286186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190286194, "dur":587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190286792, "dur":51606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190338402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691506190338409, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691506190339258, "dur":119504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189848189, "dur":61, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189848251, "dur":2671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189850922, "dur":11309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691506189862234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189862239, "dur":372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1691506189862633, "dur":23116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506189885755, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189885762, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506189887183, "dur":25288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506189912476, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506189912485, "dur":473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506189912970, "dur":102656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190015629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190015635, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190017248, "dur":20185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190037440, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190037451, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190038098, "dur":92966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190131070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190131077, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190133180, "dur":149372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190282556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190282564, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190283580, "dur":25029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190308616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190308625, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691506190309268, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1691506190309280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190309285, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1691506190312408, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1691506190312501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190312509, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1691506190312950, "dur":7462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1691506190320415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691506190320426, "dur":3581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1691506190324020, "dur":134668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189848236, "dur":71, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189848307, "dur":2571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189850878, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1691506189850954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189852807, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1691506189854618, "dur":8391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1691506189863012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189863017, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1691506189865153, "dur":36499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189901655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189901660, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189902762, "dur":65322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189968090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189968099, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189968693, "dur":22099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189990798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506189990807, "dur":685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506189991503, "dur":23348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190014875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190014882, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190015619, "dur":24115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190039748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190039755, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190041663, "dur":22843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190064509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190064514, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190066522, "dur":36347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190102876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190102883, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190103451, "dur":75425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190178881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190178888, "dur":571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190179469, "dur":33469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190212941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190212948, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190214006, "dur":102136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190316148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190316157, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691506190317738, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1691506190317753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190317760, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1691506190318527, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691506190318548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190318553, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691506190319564, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1691506190319575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190319581, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320125, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320140, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320706, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190320718, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1691506190323826, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691506190323901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691506190323909, "dur":535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691506190324453, "dur":134234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189848188, "dur":60, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189848250, "dur":2527, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189850784, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1691506189850790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189851565, "dur":188, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1691506189851756, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1691506189851770, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189852088, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1691506189854155, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1691506189854258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189855026, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1691506189856865, "dur":29000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189885867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189885884, "dur":4932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189890855, "dur":19793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189910654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189910663, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189911279, "dur":39815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189951100, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189951109, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189951645, "dur":41807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189993457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506189993480, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506189993964, "dur":43638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190037606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506190037613, "dur":4085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190041707, "dur":21719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190063432, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506190063442, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190064256, "dur":120889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190185151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506190185158, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190185718, "dur":153718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190339438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691506190339443, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691506190339946, "dur":118777, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189848414, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189848414, "dur":2409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189850825, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1691506189850912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189852340, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1691506189854706, "dur":8657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1691506189863366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189863372, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1691506189866263, "dur":17427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189883695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189883716, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189884192, "dur":23233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189907430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189907437, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189908336, "dur":31838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189940200, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189940211, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189940751, "dur":30040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189970793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189970812, "dur":6609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189977433, "dur":21592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189999030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506189999038, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506189999447, "dur":35536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190034987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190034993, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190035678, "dur":22503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190058184, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190058191, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190058697, "dur":24005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190082706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190082711, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190083595, "dur":70628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190154226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190154231, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190154882, "dur":45264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190200151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190200159, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190201125, "dur":168624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190369753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691506190369760, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691506190371354, "dur":87351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189848224, "dur":32, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189848256, "dur":2666, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189850922, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1691506189850991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189859394, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1691506189860025, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1691506189860121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189860192, "dur":6656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1691506189866933, "dur":33071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189900007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189900014, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189901101, "dur":51044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189952149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189952155, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189952570, "dur":33164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189985737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506189985743, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506189986680, "dur":34568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190021254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190021262, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190022961, "dur":23674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190046638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190046658, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190048654, "dur":33954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190082613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190082623, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190083604, "dur":50116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190133724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190133731, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190134727, "dur":115898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190250630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190250638, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190251565, "dur":157781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190409349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691506190409354, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691506190409816, "dur":48876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189848346, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189848347, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189850950, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691506189851046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189852394, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1691506189854652, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691506189854794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189854820, "dur":616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1691506189855463, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1691506189855524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189855529, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1691506189857140, "dur":57544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506189914689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189914694, "dur":18190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506189932919, "dur":52408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506189985332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506189985340, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506189986357, "dur":20743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190007105, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190007113, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190008068, "dur":23766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190031839, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190031848, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190032729, "dur":25122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190057856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190057864, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190059859, "dur":35180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190095043, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190095049, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190096547, "dur":18499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190115050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190115056, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190119561, "dur":80585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190200151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190200159, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190201149, "dur":148602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190349756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691506190349766, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691506190350885, "dur":107833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189848260, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189848260, "dur":2544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189850804, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1691506189851088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189852397, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1691506189854746, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1691506189855027, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189855053, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1691506189857599, "dur":5320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1691506189862921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189862926, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1691506189864231, "dur":36099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189900334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189900339, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189901179, "dur":19778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189920962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189920971, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189921526, "dur":40516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189962047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189962055, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189962819, "dur":19367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189982191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506189982199, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506189983961, "dur":20758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190004725, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506190004733, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190006222, "dur":23249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190029477, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506190029486, "dur":527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190030024, "dur":60174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190090201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506190090207, "dur":380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190090594, "dur":188514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190279114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506190279122, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190281958, "dur":84698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190366660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691506190366666, "dur":582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691506190367256, "dur":91456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189848310, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189848310, "dur":2468, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189850784, "dur":30021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1691506189880810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189880963, "dur":892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1691506189881886, "dur":22661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506189904552, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189904560, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506189905399, "dur":21493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506189927581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506189927591, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506189928656, "dur":78797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190007457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190007464, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190008951, "dur":36677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190045632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190045639, "dur":496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190046143, "dur":43422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190089571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190089579, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190090188, "dur":63297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190153491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190153498, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190154026, "dur":67310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190221351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190221359, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190223810, "dur":106422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190330248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1691506190330259, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1691506190330995, "dur":127785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189848338, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189848339, "dur":2446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189850786, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1691506189850912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189852891, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1691506189854775, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691506189854961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189854965, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1691506189855893, "dur":2679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189858575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189858679, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189859698, "dur":35335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1.exe" }}
+,{ "pid":12345, "tid":10, "ts":1691506189895038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189895045, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1.exe" }}
+,{ "pid":12345, "tid":10, "ts":1691506189896966, "dur":25350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189922319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189922324, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189923258, "dur":46946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189970209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506189970218, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506189973669, "dur":38922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190012596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190012604, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190013263, "dur":81711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190094981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190094989, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190096593, "dur":18094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190114692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190114701, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190115769, "dur":46028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190161802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190161809, "dur":861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190162680, "dur":79479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190242163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190242172, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190242740, "dur":214420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190457163, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1691506190457169, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1691506190458644, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1691506190458645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506189848379, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506189848380, "dur":2406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506189850786, "dur":10727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1691506189861517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506189861547, "dur":674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1691506189862251, "dur":55919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506189918176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506189918184, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506189919373, "dur":114841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190034235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190034242, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190035377, "dur":28466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190063847, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190063854, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190065744, "dur":40213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190105962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190105968, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190108264, "dur":189191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190297460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190297469, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1691506190299876, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691506190299890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190299902, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1691506190300997, "dur":2089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1691506190303091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190303099, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1691506190303604, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691506190303614, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1691506190303618, "dur":21650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1691506190325278, "dur":133524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189848438, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189848439, "dur":2366, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189850807, "dur":11341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1691506189862152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189862158, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1691506189862653, "dur":36895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189899576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189899584, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189900838, "dur":20937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189921779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189921786, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189922474, "dur":34628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189957108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189957116, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189958040, "dur":30213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189988257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506189988264, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506189989482, "dur":42617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190032103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506190032110, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190033373, "dur":30826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190064202, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506190064207, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190066439, "dur":28941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190095383, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506190095389, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190096686, "dur":114813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190211504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506190211512, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190212279, "dur":114484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190326767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1691506190326774, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Sanlab Case Exe/Sanlab Case1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1691506190327782, "dur":131008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691506190460821, "dur":1096, "ph":"X", "name": "ProfilerWriteOutput" }
+,
